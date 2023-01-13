@@ -3,7 +3,7 @@
    --raisin: #22181C;
    --lilac: #B592A0;
    --copper_rose: #9C7178;
-   --cadet_blue: #58B4A0;
+   --cadet_blue: #58A4B0;
   }
 
 @font-face {
@@ -168,6 +168,26 @@
 .marquee_link:active {
   color: #553A45;
 }
+
+.marquee_link_blue:hover{
+  text-decoration: none;
+  color: var(--cadet_blue);
+}
+
+.marquee_link_blue:active {
+  color: #3B747D;
+}
+
+.marquee_link_purple:hover{
+  text-decoration: none;
+  color: #837297;
+}
+
+.marquee_link_purple:active {
+  color: #302938;
+}
+
+
 
 #info_style {
   letter-spacing: 0.4rem;
