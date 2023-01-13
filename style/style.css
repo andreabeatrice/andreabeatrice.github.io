@@ -156,7 +156,7 @@
   100% { right: -100%; }
 }
 
-.marquee_link{
+.marquee_link, .marquee_link_blue, .marquee_link_purple{
   color: #090C08;
 }
 
